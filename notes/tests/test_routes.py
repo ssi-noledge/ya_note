@@ -19,7 +19,7 @@ class TestRoutes(TestCase):
         cls.author = User.objects.create(username='Лев Толстой')
         cls.not_author = User.objects.create(username='Алексей Толстой')
         cls.note = Note.objects.create(title='Война и мир',
-                                       text='Да, он прав, тысячу раз прав этот дуб,',
+                                       text='... тысячу раз прав этот дуб,',
                                        author=cls.author,
                                        slug='slug01',
                                        )
